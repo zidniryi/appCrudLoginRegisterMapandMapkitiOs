@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36FB050104221B9AF366F823 /* Pods_Resto_json_crud_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD93FF3B436219C06A90A8B2 /* Pods_Resto_json_crud_app.framework */; };
+		BBBDF965212E920D008927F8 /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDF964212E920C008927F8 /* GoogleMapsViewController.swift */; };
+		BBBDF967212E922E008927F8 /* MapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDF966212E922E008927F8 /* MapkitViewController.swift */; };
+		BBEBF854212E5FC200CFF970 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEBF853212E5FC200CFF970 /* LoginViewController.swift */; };
+		BBEBF856212E5FEC00CFF970 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEBF855212E5FEC00CFF970 /* RegisterViewController.swift */; };
 		BBEF6915212BC39200DAEADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF6914212BC39200DAEADE /* AppDelegate.swift */; };
 		BBEF6917212BC39200DAEADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF6916212BC39200DAEADE /* ViewController.swift */; };
 		BBEF691A212BC39200DAEADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEF6918212BC39200DAEADE /* Main.storyboard */; };
 		BBEF691C212BC39200DAEADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEF691B212BC39200DAEADE /* Assets.xcassets */; };
 		BBEF691F212BC39200DAEADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEF691D212BC39200DAEADE /* LaunchScreen.storyboard */; };
+		BBEF6927212BC84100DAEADE /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF6926212BC84100DAEADE /* MenuTableViewController.swift */; };
+		BBEF6929212BF68700DAEADE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF6928212BF68700DAEADE /* TableViewCell.swift */; };
+		BBEF692B212C113100DAEADE /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF692A212C113100DAEADE /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C35A20E159230EF4121D2AB /* Pods-Resto json crud app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resto json crud app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resto json crud app/Pods-Resto json crud app.debug.xcconfig"; sourceTree = "<group>"; };
+		BB130137212FBA3C00365AB4 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		BBBDF964212E920C008927F8 /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewController.swift; sourceTree = "<group>"; };
+		BBBDF966212E922E008927F8 /* MapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitViewController.swift; sourceTree = "<group>"; };
+		BBEBF853212E5FC200CFF970 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBEBF855212E5FEC00CFF970 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		BBEF6911212BC39100DAEADE /* Resto json crud app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resto json crud app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEF6914212BC39200DAEADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBEF6916212BC39200DAEADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,11 @@
 		BBEF691B212BC39200DAEADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBEF691E212BC39200DAEADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBEF6920212BC39200DAEADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEF6926212BC84100DAEADE /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		BBEF6928212BF68700DAEADE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BBEF692A212C113100DAEADE /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		D3181C14533145F531328C3F /* Pods-Resto json crud app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resto json crud app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resto json crud app/Pods-Resto json crud app.release.xcconfig"; sourceTree = "<group>"; };
+		FD93FF3B436219C06A90A8B2 /* Pods_Resto_json_crud_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resto_json_crud_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FB050104221B9AF366F823 /* Pods_Resto_json_crud_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A7E557D4BD204488273D1ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C35A20E159230EF4121D2AB /* Pods-Resto json crud app.debug.xcconfig */,
+				D3181C14533145F531328C3F /* Pods-Resto json crud app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A32DA65972A1FE3B51322F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD93FF3B436219C06A90A8B2 /* Pods_Resto_json_crud_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BBEF6908212BC39100DAEADE = {
 			isa = PBXGroup;
 			children = (
 				BBEF6913212BC39100DAEADE /* Resto json crud app */,
 				BBEF6912212BC39100DAEADE /* Products */,
+				7A7E557D4BD204488273D1ED /* Pods */,
+				A32DA65972A1FE3B51322F46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +93,20 @@
 		BBEF6913212BC39100DAEADE /* Resto json crud app */ = {
 			isa = PBXGroup;
 			children = (
+				BB130137212FBA3C00365AB4 /* Roboto-ThinItalic.ttf */,
 				BBEF6914212BC39200DAEADE /* AppDelegate.swift */,
 				BBEF6916212BC39200DAEADE /* ViewController.swift */,
+				BBEF6928212BF68700DAEADE /* TableViewCell.swift */,
 				BBEF6918212BC39200DAEADE /* Main.storyboard */,
+				BBBDF964212E920C008927F8 /* GoogleMapsViewController.swift */,
+				BBBDF966212E922E008927F8 /* MapkitViewController.swift */,
+				BBEBF855212E5FEC00CFF970 /* RegisterViewController.swift */,
+				BBEBF853212E5FC200CFF970 /* LoginViewController.swift */,
 				BBEF691B212BC39200DAEADE /* Assets.xcassets */,
 				BBEF691D212BC39200DAEADE /* LaunchScreen.storyboard */,
 				BBEF6920212BC39200DAEADE /* Info.plist */,
+				BBEF6926212BC84100DAEADE /* MenuTableViewController.swift */,
+				BBEF692A212C113100DAEADE /* UpdateViewController.swift */,
 			);
 			path = "Resto json crud app";
 			sourceTree = "<group>";
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBEF6923212BC39200DAEADE /* Build configuration list for PBXNativeTarget "Resto json crud app" */;
 			buildPhases = (
+				F8D76D1F682489CFBF376425 /* [CP] Check Pods Manifest.lock */,
 				BBEF690D212BC39100DAEADE /* Sources */,
 				BBEF690E212BC39100DAEADE /* Frameworks */,
 				BBEF690F212BC39100DAEADE /* Resources */,
+				D2A4CACA86D12F7909D7E0D7 /* [CP] Embed Pods Frameworks */,
+				3A4D698A74429A26042BAEB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +181,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A4D698A74429A26042BAEB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Resto json crud app/Pods-Resto json crud app-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resto json crud app/Pods-Resto json crud app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A4CACA86D12F7909D7E0D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Resto json crud app/Pods-Resto json crud app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resto json crud app/Pods-Resto json crud app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D76D1F682489CFBF376425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resto json crud app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBEF690D212BC39100DAEADE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBDF967212E922E008927F8 /* MapkitViewController.swift in Sources */,
+				BBEBF854212E5FC200CFF970 /* LoginViewController.swift in Sources */,
 				BBEF6917212BC39200DAEADE /* ViewController.swift in Sources */,
+				BBEBF856212E5FEC00CFF970 /* RegisterViewController.swift in Sources */,
+				BBEF6929212BF68700DAEADE /* TableViewCell.swift in Sources */,
 				BBEF6915212BC39200DAEADE /* AppDelegate.swift in Sources */,
+				BBEF6927212BC84100DAEADE /* MenuTableViewController.swift in Sources */,
+				BBBDF965212E920D008927F8 /* GoogleMapsViewController.swift in Sources */,
+				BBEF692B212C113100DAEADE /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +390,13 @@
 		};
 		BBEF6924212BC39200DAEADE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C35A20E159230EF4121D2AB /* Pods-Resto json crud app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9RKKB6DTX4;
+				DEVELOPMENT_TEAM = 879P4K449F;
 				INFOPLIST_FILE = "Resto json crud app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.slametriyadi.Resto-json-crud-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +407,13 @@
 		};
 		BBEF6925212BC39200DAEADE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3181C14533145F531328C3F /* Pods-Resto json crud app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9RKKB6DTX4;
+				DEVELOPMENT_TEAM = 879P4K449F;
 				INFOPLIST_FILE = "Resto json crud app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.slametriyadi.Resto-json-crud-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
